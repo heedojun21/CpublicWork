@@ -1,0 +1,46 @@
+
+
+.welcome {
+    height: 75vh;
+    /*
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-grey-dark, 0.4),
+        rgba($color-grey-dark-3, 0.5)),
+//     url(../img/passion-led-us-here.jpg);
+      url(../img/let-your-dream.jpg);
+*/
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+  //  border-left: solid;
+  //  border-bottom: solid;
+  //  border-left-color: solid;//var(--color-primary);
+  //  border-bottom-color: solid;//var(--color-primary);
+    
+}
+
+.welcomeDiv {
+    text-align: center;
+    padding: 5rem;
+}
+
+
+.welcomeRow {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: var(--color-grey-light-1);
+}
+
+
+#welcomeButton {
+    padding: 2rem 2.5rem;
+    font-size: 3rem;
+    background-color: burlywood;
+    color: white;
+}
+
+.welcomeContents {
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,87 @@
+.practiceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.practiceH1 {
+    color: goldenrod;
+}
+
+.practiceH2 {
+    color: gold;
+}
+
+
+  .practiceFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .practiceFormBox {
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+  }
+
+  .practiceFormFieldSpan {
+    padding: 2rem;
+
+    width: 500px;
+    margin-bottom: 1.5rem;
+  }
+
+  .practiceFormFieldLabel {
+    flex-grow: 1;
+  }
+
+  .practiceFormfieldInput {
+    flex-grow: 42;
+     width: 340px;
+     margin-left: 1rem;
+  }
+
+  .practiceFormButton {
+    color: gold;
+    font-weight: bold;
+    background-color: blueviolet;
+    padding: 1rem;
+  }
+
+
+  .practiceFormfieldSelect {
+    width: 340px;
+    padding: .5rem;
+    margin-left: 1rem;
+  }
+
+  .practiceRadio {
+    margin-left: 1rem;
+    padding:1rem;
+  }
+
+
+  /***********************************************
+  Sign in form
+
+  **********************************************/
+
+
+  .semanticLogInForm {
+
+  }
+
+  .semanticLogInSegment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .practiceCard {
+    width: 360px;
+    margin: 10rem auto;
+    padding: 2rem;
+  }
