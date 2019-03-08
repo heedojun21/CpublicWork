@@ -26,7 +26,7 @@ class Welcome extends Component {
 
             var frame = { "m": 0, "i": 0, "n": 'GetAccountInfo', "o": '' };
             var requestPayload = { "OMSId": 0, "AccountId": 0, "AccountHandle": "" };
-//'UserName': 'cpublicadmin', 'Password': 'CpuBAdmin27%'
+//'UserName': 'cpublicadmin', 'Password': 'password%'
             frame.o = JSON.stringify(requestPayload);
             websocketForShift1.send(JSON.stringify(frame));
 
