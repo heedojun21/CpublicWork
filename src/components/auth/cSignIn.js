@@ -87,7 +87,7 @@ class CSignIn extends Component {
 
             var frame = { "m": 0, "i": 0, "n": 'GetInstrument', "o": '' };
             var requestPayload = { "OMSId": 1, "InstrumentId": 2 };
-//'UserName': 'cpublicadmin', 'Password': 'CpuBAdmin27%'
+//'UserName': 'cpublicadmin', 'Password': 'password%'
             frame.o = JSON.stringify(requestPayload);
             websocketForShift1.send(JSON.stringify(frame));
 
